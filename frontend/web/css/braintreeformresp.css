@@ -1,0 +1,18 @@
+@media only screen and (max-width: 600px) {
+
+.bt-modal-body {
+margin: 0 !important;
+}
+.bt-modal-frame {
+width: auto !important;
+}
+.bt-modal-body iframe {
+min-height: .01%;
+overflow-x: auto;
+width: 100%;
+margin-bottom: 15px;
+overflow-y: hidden;
+-ms-overflow-style: -ms-autohiding-scrollbar;
+border: 1px solid #ddd;
+}
+}
